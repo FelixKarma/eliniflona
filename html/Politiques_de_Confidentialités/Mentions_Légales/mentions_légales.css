@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "streamsters";
+    src: url(Streamster.ttf);
+}
+
+h1{
+    font-family: 'streamsters';
+    font-size: 30px;
+}
+
+hr{
+    margin: 0%;
+}
+aside{
+    font-size: 20px;
+    background: linear-gradient(#011534,#70F1FD);
+    width: 30%;
+    margin-left: 90px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+article{
+   background-color: #011534;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
+   padding-left: 150px;
+   padding-right: 50px;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    background: linear-gradient(#011534, #6DEAF7);
+    color: white;
+    display: block;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+p{
+    font-family: 'Roboto';
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: block;
+    text-align: center;
+}
+section{
+    color: black;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;;
+}
+footer a{
+    display: flex;
+    align-items: center;
+}
+.fond{
+    width: 75%;
+    background: linear-gradient(rgba(255, 255, 255, 0.507), transparent);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
