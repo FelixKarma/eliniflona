@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "streamsters";
+    src: url(Streamster.ttf);
+}
+
+main{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url("../Inscription/Fond_d\'ecran.png"),linear-gradient(0.25turn,#040D1F, #0D2954);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    /* background-color:; */
+    
+}
+
+.fond{
+    width: 50%;
+    background: linear-gradient(rgba(255, 255, 255, 0.507), transparent);
+}
+
+h1{
+    font-family: 'streamsters';
+    font-size: 30px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+hr{
+    margin: 0%;
+}
+
+article{
+    background-color: #011534;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 50px;
+ 
+ }
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;;
+}
+footer a{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
