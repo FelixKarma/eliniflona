@@ -10,6 +10,85 @@ main{
     align-items: center;
     text-align: center;
 }
+
+aside{
+    font-size: 10px;
+    background: linear-gradient(#011534,#70F1FD);
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    margin-top: 15px;
+    color: white;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+figure{
+    font-size: 10px;
+    background: linear-gradient(#011534,#70F1FD);
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    margin-top: 15px;
+    color: white;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+h4{
+    font-size: 14px;
+    background: linear-gradient(#011534,#70F1FD);
+    width: 27%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    color: white;
+    border-radius: 50px;
+}
+
+h3{
+    font-size: 14px;
+    background: linear-gradient(#011534,#70F1FD);
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    border-radius: 50px;
+}
+
+h5{
+    font-size: 14px;
+    background: linear-gradient(#011534,#70F1FD);
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    border-radius: 50px;
+}
 body{
     margin: 0%;
     padding: 0%;
