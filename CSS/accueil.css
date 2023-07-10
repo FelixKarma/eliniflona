@@ -79,3 +79,18 @@ main{
     align-items: center;
     justify-content: center;
 }
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+footer a{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
