@@ -1,0 +1,28 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url("Group\ 35.png"),linear-gradient(0.25turn,#040D1F, #0D2954);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+    
+    /* main{
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+    } */
+    
+    #gauche{
+        position: fixed;
+        top: 375px;
+        transform: rotateY(3.142rad);
+        margin-left: 19px;
+    }
+    
+    #droite{
+        position:fixed;
+        top: 381px;
+        transform: rotateX(-3.142rad);
+        margin-left: 1347px;
+    }
