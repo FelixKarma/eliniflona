@@ -2,6 +2,10 @@
     font-family: 'KiteOne-Regular';
     src: url(/polices/KiteOne-Regular.ttf);
 }
+@font-face {
+    font-family: "streamsters";
+    src: url(../html/Inscription/Streamster.ttf);
+}
 aside{
     font-size: 20px;
     background: linear-gradient(#011534,#70F1FD);
@@ -25,7 +29,12 @@ article{
     text-align: center;
     padding-left: 150px;
     padding-right: 50px;
- 
+    
+}
+
+article h1 a{
+     font-family: "streamsters";
+    font-size: 30px;
  }
 
  a{
@@ -37,6 +46,8 @@ body{
     background-image: url(/img/ciel-etoiles-nuit.jpg);
     background-size: cover;
     font-family: 'KiteOne-Regular';
+    margin: 0;
+    padding: 0;
 }
 
 main{
