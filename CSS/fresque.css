@@ -1,36 +1,54 @@
+@font-face {
+    font-family: "streamsters";
+    src: url(../polices/Streamster.ttf);
+}
 body {
     background-image: url("https://www.cjoint.com/doc/20_11/JKemYMl6Ymw_47343047c5-105832-ciel-bleu-01.jpg");
     font-family: 'Josefin Sans', sans-serif;
 color: rgb(0, 0, 0);
+padding: 0;
+margin: 0;
 
 }
+article{
+    background-color: #011534;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 50px;
+    
+}
 
-h1, h2, h3 {
-text-align: center;
+article h1 a{
+     font-family: "streamsters";
+    font-size: 30px;
+ }
+
+
+h1, h2,{
+ text-align: center; 
 
 
 
 } 
-h1 {
-    
+
+
+.etape{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
     border-style: solid;
     border-radius: 60px;
     border-color: rgba(240, 248, 255, 0.427);
     width: 500px;
     background-color: rgba(255, 255, 255, 0.386);
     color: rgb(67, 67, 67);
-   
     
-    
-   
-}
 
-.etape{
-
-    display: flex;
-    justify-content: center;
-   
-    
 }
 
 .btn {
@@ -66,4 +84,3 @@ right: 20%;
 
 
   }
-  

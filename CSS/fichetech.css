@@ -8,8 +8,25 @@ body {
   background-color: rgb(7, 53, 109);
   font-family: 'Josefin Sans', sans-serif;
 color: aliceblue;
-
 }
+
+article{
+    background-color: #011534;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 50px;
+    
+}
+
+article h1 a{
+     font-family: "streamsters";
+    font-size: 30px;
+ }
+
 
 div {
     text-align: center;

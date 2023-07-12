@@ -4,6 +4,25 @@ body {
   margin:0px ;
   font-family: 'K2D', sans-serif;
 }
+
+article{
+  background-color: #011534;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-left: 150px;
+  padding-right: 50px;
+  
+}
+
+article h1 a{
+   font-family: "streamsters";
+  font-size: 30px;
+}
+
+
 div{
   background-color: transparent;
   padding: 20px;
