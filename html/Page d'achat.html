@@ -1,40 +1,57 @@
 <!DOCTYPE html>
 <html lang="">
 <head>
+  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/pageachat.css">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/pageachat.css">
 </head>
 <body>
-    <h1>Achats</h1> 
-    <br><br>
-    <figure>
-        <center> <img src="../img/filsrougeimagelunette-removebg-preview.png" alt=""> </center>
-     </figure>
-    
+  <main>
+    <br>
+    <figure id="h1"><h1>  Achats  </h1> </figure>
+    <br>
+   
 <h2> Mon panier </h2>
-<br>
-<table>
-    <tr>
-      <th> Article &emsp; </th> 
-      <th> Prix &emsp; </th>
-      <th> Qté &emsp; </th>
-      <th> Sous-total &emsp; </th>
-      </tr>
-</table>
+    <figure class="lunet">
 
-<label for="checkbox"> <br> </label> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-<input type="number" step="10" min="0" max="100"> &emsp;
-<input type="number" step="10" min="0" max="100">
- <br><br><br><br><br><br><br>
- <figure>
-    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="../img/trashicon-removebg-preview.png" alt="trashicon" height="40">
+      <table>
+        <tr>
+          <th> Article &emsp; </th> 
+          <th> Prix &emsp; </th>
+          <th> Qté &emsp; </th>
+          <th> Sous-total &emsp; </th>
+        </tr>
+        <tr>
+          <td> Time glasses </td>
+          <td> 3 499.99 € </td>
+          <td><input type="number" id="qté" min="0" max="100"></td>
+          <td id="sous-total"></td>
+        </tr>
+      </table>
+      <img src="https://cdn.discordapp.com/attachments/1120768114267799724/1126436580253515856/lunettes-quali.png"  alt="lunettes-quali">
+    </figure>
+
+
+ 
+ <figure class="trash">
+    <input type="image"
+     src="../img/trashicon-removebg-preview.png" alt="trashicon" style="border: none;" id="trash" height="40" width="40"> 
   </figure> 
-  <button> Continuer mes achats </button> &emsp;&emsp;&emsp;&emsp;
-  <button> Payer </button>
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <figure class="lunet2">
+
+    <input class="btn1" type="button" value="Continuer mes achats" > 
+    <input class="btn" type="button" value="Payer" >
+
+  </figure>
+
+  
+
+  
 
 
+  </main>
+  <script src="../js/pageAchat.js"></script>
 </body>
 </html>

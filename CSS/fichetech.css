@@ -1,0 +1,133 @@
+body {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/57ec07bb46c3c4749838974b/1615796014364-VKQODXF55H9VJTDR1FPV/pexels-pixabay-247676.jpg);
+
+    background-position-x: center;
+   background-repeat: repeat-x;
+   background-repeat: repeat-y;
+   background-repeat: no-repeat;
+  background-color: rgb(7, 53, 109);
+  font-family: 'Josefin Sans', sans-serif;
+color: aliceblue;
+
+}
+
+div {
+    text-align: center;
+
+    
+}
+/* .colonne {
+    display: flex;
+}
+.colonne>*  { 
+    margin: 0 10px;
+    flex: 1;
+} */
+
+h1 {
+
+    color: aliceblue;
+}
+p1 {
+    text-align: left;
+    color: aliceblue;
+    display:flex;
+    flex-direction: column; 
+    
+
+}
+
+p2 {
+    text-align: left;
+    color: aliceblue;
+    display:flex;
+    flex-direction: column;
+
+}
+
+p3 {
+
+    text-align: left;
+    color: aliceblue;
+    display:flex;
+    flex-direction: column;
+}
+
+p4 {
+    text-align: left;
+    color: aliceblue;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.btn {
+    display: flex;
+    justify-content: center ;
+    margin: 15px auto 0;
+    font-size: 30px;
+    color: rgb(50, 96, 203);
+    padding: 25px 80px;
+background: rgb(217, 235, 250);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    position: relative;
+    box-shadow: 0 10px rgb(38, 52, 140);
+    font-family: 'Josefin Sans', sans-serif;
+}
+.btn:hover {
+    box-shadow: 0 7px rgb(38, 52, 140);;
+    top: 2px;;
+
+}
+
+
+.btn:active {
+    box-shadow: 0 0 rgb(38, 52, 140);
+    top: 6px;
+
+}
+
+.img {
+
+    background-color: #9ab0bf55;
+    border-radius: 0px 40px 40px 40px;
+    padding-bottom: 30px;
+    width: 50%;
+    margin-left: auto;
+margin-right: auto;
+
+
+}
+
+
+table {
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+border-spacing: 20px 0px;
+
+}
+
+th,td{
+    background-color: rgba(66, 80, 96, 0.5);
+    width: 24%;
+
+}
+
+th{
+    border-radius: 60px 60px 0 0;
+    font-size: x-large;
+    padding-top: 10px;
+
+}
+
+
+td{
+    font-size: larger;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
