@@ -43,7 +43,7 @@ article h1 a{
 }
 
 body{
-    background-image: url(/img/ciel-etoiles-nuit.jpg);
+    background-image: url(../img/ciel-etoiles-nuit.jpg);
     background-size: cover;
     font-family: 'KiteOne-Regular';
     margin: 0;
