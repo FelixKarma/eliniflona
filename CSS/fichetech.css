@@ -11,6 +11,32 @@ color: aliceblue;
 
 }
 
+@font-face {
+    font-family: "streamsters";
+    src: url(../polices/Streamster.ttf);
+}
+
+article{
+    background-color: #011534;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 50px;
+    font-family: 'streamsters';
+    font-size: 20px;
+    
+ }
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+ hr{
+    margin: 0%;
+}
+
 div {
     text-align: center;
 
@@ -28,6 +54,7 @@ h1 {
 
     color: aliceblue;
 }
+
 p1 {
     text-align: left;
     color: aliceblue;
