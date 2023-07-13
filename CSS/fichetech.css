@@ -10,6 +10,11 @@ body {
 color: aliceblue;
 }
 
+@font-face {
+    font-family: "streamsters";
+    src: url(../polices/Streamster.ttf);
+}
+
 article{
     background-color: #011534;
     color: white;
@@ -45,6 +50,7 @@ h1 {
 
     color: aliceblue;
 }
+
 p1 {
     text-align: left;
     color: aliceblue;
