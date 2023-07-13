@@ -178,3 +178,15 @@ top: 6px;
 .btn .btn1 {
 align-items: baseline;
 }
+
+
+@font-face {
+  font-family: "streamsters";
+  src: url(../polices/Streamster.ttf);
+}
+
+a{
+  color: white;
+  text-decoration: none;
+
+}

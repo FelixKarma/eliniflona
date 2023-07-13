@@ -21,10 +21,17 @@ article{
     
 }
 
-article h1 a{
+h1{
      font-family: "streamsters";
     font-size: 30px;
- }
+    color: white;
+    text-decoration: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
 
 
 main{
@@ -86,4 +93,9 @@ p {
     
     margin-left: 10%; 
     
+}
+
+@font-face {
+    font-family: "streamsters";
+    src: url(../polices/Streamster.ttf);
 }

@@ -7,7 +7,8 @@ body {
    background-repeat: no-repeat;
   background-color: rgb(7, 53, 109);
   font-family: 'Josefin Sans', sans-serif;
-color: aliceblue;
+  color: aliceblue;
+  margin: 0%;
 }
 
 @font-face {
@@ -51,6 +52,10 @@ h1 {
     color: aliceblue;
 }
 
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
 p1 {
     text-align: left;
     color: aliceblue;
