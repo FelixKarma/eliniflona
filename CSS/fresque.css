@@ -58,21 +58,21 @@ h3{
 }
 
 .btn {
-
+    padding-top: 15px;
     display: flex;
     justify-content: right;
-
-
-
+    
+    
+    
 }
 
 #aide {
     border-radius: 60px;
     width: 100px;
     position: absolute;
-top: 90px;
-right: 20%;
-    font-size: 55%;
+    top: 320px;
+    right: 20%;
+    font-size: 150%;
     background-color: black;
     color: aliceblue;
     font-family: 'Josefin Sans', sans-serif;
