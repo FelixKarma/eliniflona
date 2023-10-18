@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "streamsters";
+  src: url(../polices/Streamster.ttf);
+}
+
+@font-face {
+  font-family: 'KiteOne-Regular';
+  src: url(/polices/KiteOne-Regular.ttf);
+}
+
 body {
   background-color: #0a0f2b;
   padding: 0px ;
@@ -13,15 +23,18 @@ article{
   align-items: center;
   text-align: center;
   padding-left: 150px;
-  padding-right: 50px;
-  
+  padding-right: 50px; 
 }
 
 article h1 a{
-   font-family: "streamsters";
-  font-size: 30px;
+  font-family: "streamsters";
+ font-size: 30px;
 }
 
+a{
+ color: white;
+ text-decoration: none;
+}
 
 div{
   background-color: transparent;
@@ -39,14 +52,7 @@ main {
   padding-bottom: 50px;
 }
 
-h1 {
-color: #2d3878;
-border-style: groove;
-border-radius: 60px;    
-display: inline;
-padding: 5px;
 
-}
 #h1{
 text-align: center;
 
@@ -179,14 +185,3 @@ top: 6px;
 align-items: baseline;
 }
 
-
-@font-face {
-  font-family: "streamsters";
-  src: url(../polices/Streamster.ttf);
-}
-
-a{
-  color: white;
-  text-decoration: none;
-
-}
